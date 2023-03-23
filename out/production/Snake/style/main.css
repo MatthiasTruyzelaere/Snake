@@ -1,0 +1,32 @@
+#label-1 {
+    -fx-font-size: 64px;
+    -fx-font-style: oblique;
+    -fx-font-family: "Impact";
+}
+
+#label-2 {
+    -fx-font-size: 20px;
+    -fx-font-style: oblique;
+    -fx-font-family: "Impact";
+}
+
+#input {
+    -fx-max-width: 250px;
+    -fx-max-height: 10px;
+    -fx-border-color: none;
+}
+
+#button {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #44FFD1;
+    -fx-background-color: none;
+
+    -fx-min-width: 150px;
+    -fx-padding: 15px 25px;
+}
+
+#button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #44FFD1;
+}
